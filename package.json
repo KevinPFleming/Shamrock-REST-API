@@ -1,12 +1,15 @@
 {
   "name": "shamrock-rest-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "REST-API-shamrock",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm start"
+    "start": "node server"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "KPF",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
